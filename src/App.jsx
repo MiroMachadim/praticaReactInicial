@@ -5,7 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import HelloWorld from './components/Inicial.jsx'
 import SobreMim from './components/Apresentar.jsx'
-import Calculadora from './components/Calculadora.jsx'
+import { Somar,Dividir, Multiplica, Subtrair } from './components/Calculadora.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +18,10 @@ function App() {
        </div>
        <div className='apresentar'>
         <SobreMim/>
-        <Calculadora/>
+        <Somar/>
+        <Subtrair/>
+        <Multiplica/>
+        <Dividir/>
        </div>
       </section>
 
